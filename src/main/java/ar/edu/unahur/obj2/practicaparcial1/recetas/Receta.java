@@ -1,5 +1,6 @@
 package ar.edu.unahur.obj2.practicaparcial1.recetas;
 
+<<<<<<< HEAD
 public class Receta implements IReceta {
     private String nombre;
     private String autor;
@@ -56,4 +57,16 @@ public class Receta implements IReceta {
     }
 
     
+=======
+public interface Receta {
+
+    String nombre();
+
+    String autor();
+
+    Integer valorNutricional();
+
+    Boolean esTradicional();
+
+>>>>>>> ca28429bfcdb9d15c00595761ff531dd7bcf19e1
 }

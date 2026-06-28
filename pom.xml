@@ -14,7 +14,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
-    <dependencies>
+     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
@@ -24,7 +24,10 @@
     </dependencies>
     <build>
         <plugins>
+<<<<<<< HEAD
 
+=======
+>>>>>>> ca28429bfcdb9d15c00595761ff531dd7bcf19e1
             <!-- Plugin de Maven Surefire para ejecutar pruebas -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -60,4 +63,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
